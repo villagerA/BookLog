@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, 'ChosunKg'; /* 전체 페이지의 폰트 스타일 지정 */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* 배경색 설정 */
+    text-align: center; /* 제목을 중앙 정렬 */
+}
+
+h1 {
+    font-family: 'ChosunBg';
+    color: #111; /* 제목의 색상 지정 */
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #222; /* 제목의 색상 지정 */
+    text-align: left; /* 제목을 중앙 정렬 */
+    margin-left: 45px;
+}
+
+p {
+    font-size: 18px; /* 문단의 폰트 크기 지정 */
+    color: #666; /* 문단의 색상 지정 */
+    line-height: 1; /* 문단의 줄 간격 지정 */
+    margin-top: 35px;
+    margin-left: 50px;
+    text-align: left; /* 제목을 중앙 정렬 */
+}
+
+a {
+    color: #000; /* 링크의 색상 지정 */
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    text-align: center; /* 제목을 중앙 정렬 */
+}
+
+a:hover {
+    color: blue; /* 마우스 오버 시 링크 색상 변경 */
+    text-align: center;
+}
+
+.button {
+    color: #000; /* 글자 색깔 */
+    text-align:center; /* 글자 중앙정렬 */
+    background-color: #fff; /* 버튼 색깔 */
+    border-left: 2px solid black;
+    padding: 5px;
+    padding-left: 10px;
+    min-height: 20px; min-width: 70px; /* 보는 기기에 따라 버튼 크기 조정 가능토록 */
+    cursor: pointer; /* 마우스 손가락으로 변형 */
+}
+
+hr {
+    width: 45%;
+    margin-left: 50px;
+}
+
+/* 조선견고딕 */
+@font-face {
+    font-family: 'ChosunBg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunBg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 조선굵은고딕 */
+@font-face {
+    font-family: 'ChosunKg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
